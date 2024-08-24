@@ -1,0 +1,70 @@
+body {
+  font-family: "Poppins", system-ui;
+}
+
+#main-menu {
+  margin: 1rem 0rem;
+  padding: 0.5em;
+  border-radius: 1em;
+}
+
+#main-menu .nav-item {
+  margin: 0em 1.2em;
+}
+
+#main-menu .nav-link {
+  /* color: #fff; */
+  font-weight: 600;
+}
+
+section {
+  margin: 4rem 0em;
+}
+
+#hero h1 {
+  font-size: 55px;
+  font-weight: bold;
+  color: #362030;
+}
+
+#hero .btn {
+  background-color: #362030;
+  border: none;
+  border-radius: 50px;
+  padding: 1em 2em;
+}
+
+#offer .card {
+  background-color: #eac5a0;
+  border-radius: 2em;
+}
+
+#offer h3 {
+  font-size: 36px;
+  color: #362030;
+  font-weight: bold;
+}
+
+#offer .btn {
+  background-color: #362030;
+  border: none;
+  border-radius: 50px;
+  padding: 1em 2em;
+}
+
+#testimonial {
+  padding: 1em;
+  background-color: #f6f8fd;
+}
+
+#testimonial .card {
+  margin: 0.5em 0em;
+  padding: 1em;
+  border-radius: 2em;
+}
+
+footer {
+  background: #eac5a0;
+  border-top-left-radius: 2em;
+  border-top-right-radius: 2em;
+}
