@@ -49,7 +49,7 @@
           <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav ms-auto">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#"
+                <a class="nav-link active" aria-current="page" href="/"
                   >Beranda</a
                 >
               </li>
@@ -78,72 +78,17 @@
     </header>
 
     <main>
-      <section class="container-fluid" id="hero">
-        <div class="row no-gutters">
-          <div class="col-lg-4 p-0">
-            <img src="/images/hero-1.png" alt="hero-1" class="img-fluid" />
+      <section class="container pt-4" id="service-content">
+        <div class="row mb-4">
+          <div class="col-lg-6 text-center">
+            <img id="cover" class="img-fluid rounded" />
           </div>
-          <div class="col-lg-4 p-0">
-            <img src="/images/hero-2.png" alt="hero-2" class="img-fluid" />
-          </div>
-          <div class="col-lg-4 p-0">
-            <img src="/images/hero-3.png" alt="hero-3" class="img-fluid" />
-          </div>
-        </div>
-        <div class="row no-gutters">
-          <div class="col-lg-4 p-0">
-            <img src="/images/hero-4.png" alt="hero-4" class="img-fluid" />
-          </div>
-          <div class="col-lg-4 p-0">
-            <img src="/images/hero-5.png" alt="hero-5" class="img-fluid" />
-          </div>
-          <div class="col-lg-4 p-0">
-            <img src="/images/hero-6.png" alt="hero-6" class="img-fluid" />
-          </div>
-        </div>
-        <div class="row no-gutters">
-          <div class="col-lg-4 p-0">
-            <img src="/images/hero-7.png" alt="hero-7" class="img-fluid" />
-          </div>
-          <div class="col-lg-4 p-0">
-            <img src="/images/hero-8.png" alt="hero-8" class="img-fluid" />
-          </div>
-          <div class="col-lg-4 p-0">
-            <img src="/images/hero-9.png" alt="hero-9" class="img-fluid" />
-          </div>
-        </div>
-        <div class="row no-gutters">
-          <div class="col-lg-4 p-0">
-            <img src="/images/hero-10.png" alt="hero-10" class="img-fluid" />
-          </div>
-          <div class="col-lg-4 p-0">
-            <img src="/images/hero-11.png" alt="hero-11" class="img-fluid" />
-          </div>
-          <div class="col-lg-4 p-0">
-            <img src="/images/hero-12.png" alt="hero-12" class="img-fluid" />
-          </div>
-        </div>
-      </section>
-      <br /><br />
-      <section class="container my-4" id="address">
-        <div class="row">
-          <div class="col-lg-6 my-auto">
-            <h3>Alamat</h3>
-            <p class="lead">
-              Jl. Cemara No.6a, Wonoyoso, Bumirejo, Kec. Kebumen, Kabupaten
-              Kebumen, Jawa Tengah 54316
-            </p>
-          </div>
-          <div class="col-lg-6 text-center my-auto">
-            <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3954.1821662011907!2d109.66068127442225!3d-7.663554792352977!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e7ab5219a8f0d69%3A0x8b6eb86719c4b384!2sInara%20Studio!5e0!3m2!1sid!2sid!4v1725504738828!5m2!1sid!2sid"
-              width="400"
-              height="300"
-              style="border: 0"
-              allowfullscreen=""
-              loading="lazy"
-              referrerpolicy="no-referrer-when-downgrade"
-            ></iframe>
+          <div class="col-lg-6 mt-4">
+            <h3 class="fw-bold" id="harga"></h3>
+            <h4 class="mb-3" id="judul"></h4>
+            <hr />
+            <h6>Deskripsi</h6>
+            <div id="deskripsi"></div>
           </div>
         </div>
       </section>
@@ -165,7 +110,7 @@
         <div class="col-lg-6 text-center">
           <p>
             Follow us on Instagram
-            <a href="#" class="text-dark"><i class="fa fa-instagram"></i></a>
+            <a href="#"><i class="fa fa-instagram"></i></a>
           </p>
         </div>
       </div>
@@ -182,5 +127,8 @@
       crossorigin="anonymous"
     ></script>
     <script src="js/script.js"></script>
+    <script>
+      renderDetailService();
+    </script>
   </body>
 </html>
